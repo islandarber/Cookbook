@@ -1,0 +1,35 @@
+html, body {
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: grey;
+  background-color: whitesmoke;
+}
+
+
+.container {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./assets/background.webp');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  /* min-height: 100vh; */
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  color: white;
+}
+
+h3 {
+  color: #ff38159c;
+  font-size: large;
+}
+
